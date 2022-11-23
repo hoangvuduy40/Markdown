@@ -1,0 +1,119 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+  width: 100vw;
+  background-color: #84b0b0;
+}
+.wrapper {
+  box-sizing: border-box;
+  width: 100vw;
+  background-color: #84b0b0;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: center;
+}
+.input {
+  box-sizing: border-box;
+  width: 400px;
+  height: auto;
+  border: 1px solid black;
+  box-shadow: 0px 0px 5px 0px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.wrapper .input .headerBox {
+  border-bottom: 1px solid black;
+  box-shadow: 0px 0px 5px 0px;
+  box-sizing: border-box;
+  padding: 5px 25px;
+  width: 100%;
+  height: 30px;
+  background-color: #4aa3a3;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.wrapper .input .headerBox p {
+  font-weight: 400px;
+}
+.wrapper .input .headerBox button {
+  padding: 0;
+  background-color: transparent;
+  border: none;
+}
+.wrapper .input .headerBox button i {
+  transform: rotate(135deg);
+}
+.wrapper .input .textarea {
+  box-sizing: border-box;
+  padding: 5px;
+  max-width: 400px;
+  width: 100%;
+  height: 200px;
+  min-height: 200px;
+  margin-bottom: -5px;
+  resize: vertical;
+  outline: none;
+  font-size: 0.875rem;
+  background-color: #c0d8d8;
+}
+.output {
+  box-sizing: border-box;
+  margin: 10px;
+  width: 800px;
+  height: auto;
+  border: 1px solid black;
+  box-shadow: 0px 0px 5px 0px;
+}
+.output .text {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 800px;
+  height: 870px;
+  padding: 5px;
+  background-color: #c0d8d8;
+}
+.output .text img {
+  display: block;
+  max-width: 90%;
+  margin: 2rem auto;
+}
+.output .text pre {
+  display: block;
+  overflow: auto;
+  background: white;
+  padding: 5px;
+  line-height: 1.2;
+}
+.output .text table,
+th,
+td {
+  border: 1px solid;
+  border-collapse: collapse;
+}
+.wrapper .output .headerBox {
+  border-bottom: 1px solid black;
+  box-shadow: 0px 0px 5px 0px;
+  box-sizing: border-box;
+  padding: 5px 25px;
+  width: 100%;
+  height: 30px;
+  background-color: #4aa3a3;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.wrapper .output .headerBox p {
+  font-weight: 400px;
+}
+.wrapper .output .headerBox button {
+  padding: 0;
+  background-color: transparent;
+  border: none;
+}
+.wrapper .output .headerBox button i {
+  transform: rotate(135deg);
+}
